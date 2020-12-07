@@ -9,7 +9,7 @@ let package = Package(
         .library(name: "RxWebKit", type: .dynamic, targets: ["RxWebKit"])
     ],
     dependencies: [
-        .package(url: "https://github.com/ReactiveX/RxSwift", .upToNextMajor(from: "5.0.0")),
+        .package(url: "https://github.com/ReactiveX/RxSwift", .upToNextMajor(from: "6.0.0-rc.1")),
     ],
     targets: [
         .target(
